@@ -23,7 +23,8 @@ public class Menu extends BasicGameState
 	{
 		g.setColor(Color.blue);
 		g.drawString("Developed by 'Java' 2018.", 265, 580);
-		g.drawImage(titleImage, gc.getScreenWidth()/2 - titleImage.getWidth() * 7/6, 50f);
+		g.drawImage(titleImage, gc.getScreenWidth()/2 - titleImage.getWidth() * 7/6, 50f); // just looked nice 
+		// the png format may be messing with my math, because ratio was messed up when i changed sizes
 	}
 	
 	public void update(GameContainer gc, StateBasedGame sbg, int delta)
