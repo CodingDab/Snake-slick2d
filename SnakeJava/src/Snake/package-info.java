@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author NickA
- *
- */
-package Snake;
