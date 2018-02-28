@@ -2,6 +2,7 @@ package Snake;
 
 import org.newdawn.slick.*;
 import org.newdawn.slick.state.*;
+import org.lwjgl.input.*;
 
 public class Menu extends BasicGameState
 {
@@ -30,7 +31,8 @@ public class Menu extends BasicGameState
 	public void update(GameContainer gc, StateBasedGame sbg, int delta)
 		throws SlickException
 	{
-		
+		// will create a more complex menu later on
+		if(Keyboard.isKeyDown(Keyboard.KEY_RETURN)) sbg.enterState(1); // enter the "play" state
 	}
 	
 	public int getID()
